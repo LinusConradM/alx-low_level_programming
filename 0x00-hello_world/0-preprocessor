@@ -1,0 +1,3 @@
+root@9ae5b9050db6:~/alx-low_level_programming/0x00-hello_world#
+#!/bin/bash
+gcc $CFILE -E -o c
