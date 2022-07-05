@@ -20,5 +20,6 @@ int _isalpha(int c)
 		i++;
 		j++;
 	}
-	return (0)
+
+	return (0);
 }
