@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main -> this is a function to print its name 
+ * main -> this is a function to print its nae
  * @argc: argc parameter
- * @agrv: an array of a command listed
- * Return: 0 for success
+ * @argv: an array of a command listed
+ * Retun: 0 for success
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
