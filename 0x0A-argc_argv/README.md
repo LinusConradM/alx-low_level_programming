@@ -1,1 +1,1 @@
-# this is all about RGC
+# this is all about argc and argv
