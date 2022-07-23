@@ -2,12 +2,18 @@
 
 /**
  * main -> this is a function to print its name
- * @argc: argc paramter
+ * @argc: argc parameter
  * @argv: an array of a command listed
- * Return: 0 for succcess
+ * Return: 0 for success
  */
-int main(int argc, char *argv[] __attribute__((unused)))
+
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("argv index %d is = %s\n", i, argv[i]);
+	}
 	return (0);
 }
